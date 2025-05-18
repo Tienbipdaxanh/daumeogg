@@ -33,7 +33,344 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/Tienbipdaxanh/Kayhrn
      local Tab1o = MakeTab({Name = "STYLE VIP"})
      local Tab2o = MakeTab({Name = "Funny🤡🤡🤡"})
      local Tab3o = MakeTab({Name = "HITBOX GAME"})
-     local Tab4o = MakeTab({Name = "CHẤT LƯỢNG ĐỒ HỌA"})
+     local Tab4o = MakeTab({Name = "GRAPHICS"})
+     local Tab5o = MakeTab({Name = "STYLE (Must have Reo)"})
+------- BUTTON
+    
+    AddButton(Tab1o, {
+     Name = "LAVIDNHO STYLE",
+    Callback = function()
+	  local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Youifpg/Styless/refs/heads/main/Lavinho.lua"))()(Settings)
+  end
+  })
+  
+  AddButton(Tab1o, {
+     Name = "LOKI STYLE",
+    Callback = function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/PresidentZuyi/MainSource/refs/heads/main/LokiV1Beta'))()
+  end
+  })
+  
+  AddButton(Tab1o, {
+     Name = "Itoshi Rin STYLE (FIXEDNEL)",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/stylemakeritosh/Ace/refs/heads/main/NelRinV2"))()
+  end
+  })
+  AddButton(Tab1o, {
+     Name = "NOEL NOAL STYLE (BESTNOEL)",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/stylemakeritosh/Ace/refs/heads/main/NoelNoaV1"))()
+  end
+  })
+
+AddButton(Tab1o, {
+     Name = "DON LORENZO STYLE",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Youifpg/Styles/refs/heads/main/Zombie.lua"))()
+  end
+  })
+  
+  AddButton(Tab1o, {
+     Name = "KAISER STYLE",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ScriptXPaid/Scripts/refs/heads/main/ScriptX%20Login"))()
+  end
+  })
+  
+ AddButton(Tab1o, {
+     Name = "GOKU STYLE(SONGOKU)",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/stylemakeritosh/Ace/refs/heads/main/GoatKu"))()
+  end
+  })
+ 
+ AddButton(Tab1o, {
+     Name = "Dancer Style",
+    Callback = function()
+loadstring(game:HttpGet("https://pastefy.app/ktBtXL1D/raw"))()
+   end
+   }) 
+   
+   AddButton(Tab1o, {
+     Name = "Sus Style 🤯😳☠☠☠☠",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/p2K9298sigkahot/Ambatukammmm/refs/heads/main/PornhubMadeByP2K"))()
+   end
+   }) 
+   
+   AddButton(Tab1o, {
+     Name = "Hioiri V2 Style (Mythical)",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ScriptXPaid/Scripts/refs/heads/main/ScriptX%20Login"))()
+   end
+   }) 
+   
+   AddButton(Tab1o, {
+     Name = "Gojo satoru Style",
+    Callback = function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/PresidentZuyi/H/refs/heads/main/B'))()
+   end
+   }) 
+   
+  AddButton(Tab2o, {
+     Name = " JUKE SCRIPT ",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/RedJDark/MAIN/refs/heads/main/juke"))()
+  end
+  })
+  
+  AddButton(Tab2o, {
+     Name = " CONTROL BALL (TP)",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/XZuuyaX/CtrlBall/refs/heads/main/Main", true))()
+  end
+  })
+  
+  AddButton(Tab2o, {
+     Name = " No cooldown (Vip)",
+    Callback = function()
+local C=require(game:GetService("ReplicatedStorage").Controllers.AbilityController)
+local o=C.AbilityCooldown C.AbilityCooldown=function(s,n,...)return o(s,n,0,...)end
+  end
+  })
+ 
+  AddButton(Tab3o, {
+     Name = "Troll Gk 🤣",
+    Callback = function()
+L=game:service'Players'.LocalPlayer;game:service'RunService'.Heartbeat:Connect(function()if L.Character and L.Character:FindFirstChild'HumanoidRootPart'then local B=workspace:FindFirstChild'Football'if B and B.AssemblyLinearVelocity.Magnitude<100 then B:ApplyImpulse((L.Character.HumanoidRootPart.Position+Vector3.new(0,-2.5,0)-B.Position).Unit*18)end end end)
+  end
+  })
+  
+  AddButton(Tab2o, {
+     Name = "Inf Stamina¹",
+    Callback = function()
+
+local args = {
+    [1] = 0/0 -- INF
+}
+
+game:GetService("ReplicatedStorage").Packages.Knit.Services.StaminaService.RE.DecreaseStamina:FireServer(unpack(args))
+  end
+  })
+  
+  -----Toggle
+  Toggle = AddToggle(Tab2o, {
+      Name = "Anti Banned (fixed)",
+      Default = false,
+      Callback = function()
+     end
+    })
+    
+    AddButton(Tab3o, {
+     Name = "HITBOX BALL",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/RedJDarks/MAIN/refs/heads/main/HitboxExpander"))()
+  end
+  })
+    
+    AddButton(Tab3o, {
+     Name = "Esp Player ",
+    Callback = function()
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/Bugsda/espplayer/refs/heads/main/Playespa")))()
+  end
+   })
+   
+   AddButton(Tab3o, {
+     Name = " HITBOX GK(Douki23)",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/RedJDarks/MAIN/refs/heads/main/HitboxExpander"))()
+  end
+   })
+   
+   AddButton(Tab3o, {
+     Name = " HANDBALL",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/RedJDark/MAIN/refs/heads/main/handball"))()
+  end
+  })
+  
+   AddButton(Tab4o, {
+     Name = "GRAPHICS",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/TurboLite/Script/main/FixLag.lua"))()
+   end
+   })
+  
+AddButton(Tab5o, {
+     Name = "Isagi Style",
+    Callback = function()
+game.Players.LocalPlayer.PlayerStats.Style.Value = "Isagi"
+   end
+   }) 
+   
+   AddButton(Tab5o, {
+     Name = "Chigiri Style",
+    Callback = function()
+game.Players.LocalPlayer.PlayerStats.Style.Value = "Chigiri"
+   end
+   }) 
+   
+   AddButton(Tab5o, {
+     Name = "Kurona Style",
+    Callback = function()
+game.Players.LocalPlayer.PlayerStats.Style.Value = "Kurona"
+   end
+   }) 
+   
+   AddButton(Tab5o, {
+     Name = "Igaguri Style",
+    Callback = function()
+game.Players.LocalPlayer.PlayerStats.Style.Value = "Igaguri"
+   end
+   }) 
+   
+   AddButton(Tab5o, {
+     Name = "Hiori Style",
+    Callback = function()
+game.Players.LocalPlayer.PlayerStats.Style.Value = "Hiori"
+   end
+   }) 
+   
+   AddButton(Tab5o, {
+     Name = "Gagamaru Style",
+    Callback = function()
+game.Players.LocalPlayer.PlayerStats.Style.Value = "Gagamaru"
+   end
+   }) 
+   
+   AddButton(Tab5o, {
+     Name = "Otoya Style",
+    Callback = function()
+game.Players.LocalPlayer.PlayerStats.Style.Value = "Otoya"
+   end
+   }) 
+   
+   AddButton(Tab5o, {
+     Name = "Bachira Style",
+    Callback = function()
+game.Players.LocalPlayer.PlayerStats.Style.Value = "Bachira"
+   end
+   }) 
+   
+   AddButton(Tab5o, {
+     Name = "Nagi Style",
+    Callback = function()
+game.Players.LocalPlayer.PlayerStats.Style.Value = "Nagi"
+   end
+   }) 
+   
+   AddButton(Tab5o, {
+     Name = "Karasu Style",
+    Callback = function()
+game.Players.LocalPlayer.PlayerStats.Style.Value = "Karasu"
+   end
+   }) 
+   
+   AddButton(Tab5o, {
+     Name = "Reo Style",
+    Callback = function()
+game.Players.LocalPlayer.PlayerStats.Style.Value = "Reo"
+   end
+   }) 
+   
+   AddButton(Tab5o, {
+     Name = "Shidou Style",
+    Callback = function()
+game.Players.LocalPlayer.PlayerStats.Style.Value = "Shidou"
+   end
+   }) 
+   
+   AddButton(Tab5o, {
+     Name = "Yukimiya Style",
+    Callback = function()
+game.Players.LocalPlayer.PlayerStats.Style.Value = "Yukimiya"
+   end
+   }) 
+   
+   AddButton(Tab5o, {
+     Name = "NEL Bachira  Style",
+    Callback = function()
+game.Players.LocalPlayer.PlayerStats.Style.Value = "NEL Bachira"
+   end
+   }) 
+   
+   AddButton(Tab5o, {
+     Name = "King Style",
+    Callback = function()
+game.Players.LocalPlayer.PlayerStats.Style.Value = "King"
+   end
+   }) 
+   
+   AddButton(Tab5o, {
+     Name = "Kunigami Style",
+    Callback = function()
+game.Players.LocalPlayer.PlayerStats.Style.Value = "Kunigami"
+   end
+   }) 
+   
+   AddButton(Tab5o, {
+     Name = "Aiku Style",
+    Callback = function()
+game.Players.LocalPlayer.PlayerStats.Style.Value = "Aiku"
+   end
+   }) 
+   
+   AddButton(Tab5o, {
+     Name = "Sae Style",
+    Callback = function()
+game.Players.LocalPlayer.PlayerStats.Style.Value = "Sae"
+   end
+   }) 
+   
+   AddButton(Tab5o, {
+     Name = "Nel Isagi Style",
+    Callback = function()
+game.Players.LocalPlayer.PlayerStats.Style.Value = "NEL Isagi"
+   end
+   }) 
+   
+   AddButton(Tabloadstring(game:HttpGet(("https://raw.githubusercontent.com/Tienbipdaxanh/Kayhrnlah/refs/heads/main/kosksg")))()
+
+       local Window = MakeWindow({
+         Hub = {
+         Title = "🤡Script by Đầu Mèo Đoẹp troai🤡",
+         Animation = "🔥Script by Daumeo🔥"
+         },
+        Key = {
+        KeySystem = true,
+        Title = " Đầu mèo đẹp troai 🤓 ",
+        Description = "Get key không quá khó đâu👍👍👍",
+        KeyLink = "https://link-target.net/1345604/keysystem1",
+        Keys = {"daumeo193619depzai191sjs"},
+        Notifi = {
+        Notifications = true,
+        CorrectKey = "Đang chạy script...",
+       Incorrectkey = "Sai Key rồi",
+       CopyKeyLink = "Sao chép Liên Kết Thành công✅"
+      }
+    }
+  })
+
+       MinimizeButton({
+       Image = "http://www.roblox.com/asset/?id=103207748545792",
+       Size = {60, 60},
+       Color = Color3.fromRGB(10, 10, 10),
+       Corner = true,
+       Stroke = false,
+       StrokeColor = Color3.fromRGB(115, 99, 3)
+      })
+      
+------ Tab
+     local Tab1o = MakeTab({Name = "STYLE VIP"})
+     local Tab2o = MakeTab({Name = "Funny🤡🤡🤡"})
+     local Tab3o = MakeTab({Name = "HITBOX GAME"})
+     local Tab4o = MakeTab({Name = "GRAPHICS"})
      local Tab5o = MakeTab({Name = "STYLE (Must have Reo)"})
 ------- BUTTON
     
@@ -336,6 +673,28 @@ game.Players.LocalPlayer.PlayerStats.Style.Value = "NEL Isagi"
    }) 
    
    AddButton(Tab5o, {
+     Name = "Kaiser Style",
+    Callback = function()
+game.Players.LocalPlayer.PlayerStats.Style.Value = "Kaiser"
+   end
+   }) 
+   
+   AddButton(Tab5o, {
+     Name = "Don Lorenzo Style",
+    Callback = function()
+game.Players.LocalPlayer.PlayerStats.Style.Value = "Don Lorenzo"
+   end
+   }) 
+   
+   AddButton(Tab5o, {
+     Name = "Nel Rin Style",
+    Callback = function()
+game.Players.LocalPlayer.PlayerStats.Style.Value = "NEL Rin"
+   end
+   }) 
+   
+  local Main = MakeTab({Name = "INFO"}) local Image = AddImageLabel(Main, { Name = "🔥Đầu Mèo Đẹp Zai =)))🔥", Image = "rbxassetid://103207748545792" }) local Paragraph1 = AddParagraph(Main, {"🔥Script này được lấy ý tưởng của vài người🔥", "CREDIT"}) local Paragraph2 = AddParagraph(Main, {"Follow nick tiktok của đầu mèo:fanrealmadrid806🤓", "INFO"}) local Paragraph3 = AddParagraph(Main, {"Đầu Mèo đẹp troai 🤡"}) local Paragraph4 = AddParagraph(Main, {"Đầu Mèo đẹp zai là chủ sỡ hữu script này"}) 
+5o, {
      Name = "Kaiser Style",
     Callback = function()
 game.Players.LocalPlayer.PlayerStats.Style.Value = "Kaiser"
