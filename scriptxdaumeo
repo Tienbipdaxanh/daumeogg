@@ -1,1 +1,677 @@
---[[ .____ ________ ___. _____ __ | | __ _______ \_____ \\_ |___/ ____\_ __ ______ ____ _____ _/ |_ ___________ | | | | \__ \ / | \| __ \ __\ | \/ ___// ___\\__ \\ __\/ _ \_ __ \ | |___| | // __ \_/ | \ \_\ \ | | | /\___ \\ \___ / __ \| | ( <_> ) | \/ |_______ \____/(____ /\_______ /___ /__| |____//____ >\___ >____ /__| \____/|__| \/ \/ \/ \/ \/ \/ \/ \_Welcome to LuaObfuscator.com (Alpha 0.10.9) ~ Much Love, Ferib ]]-- local v0=tonumber;local v1=string.byte;local v2=string.char;local v3=string.sub;local v4=string.gsub;local v5=string.rep;local v6=table.concat;local v7=table.insert;local v8=math.ldexp;local v9=getfenv or function() return _ENV;end ;local v10=setmetatable;local v11=pcall;local v12=select;local v13=unpack or table.unpack ;local v14=tonumber;local function v15(v16,v17,...) local v18=1;local v19;v16=v4(v3(v16,5),"..",function(v30) if (v1(v30,2)==81) then local v88=0;while true do if (v88==0) then v19=v0(v3(v30,1,1));return "";end end else local v89=v2(v0(v30,16));if v19 then local v109=v5(v89,v19);v19=nil;return v109;else return v89;end end end);local function v20(v31,v32,v33) if v33 then local v90=(v31/((5 -3)^(v32-1)))%((5 -3)^(((v33-(1 -0)) -(v32-((879 -(282 + 595)) -1))) + (620 -(555 + (1701 -(1523 + 114)))))) ;return v90-(v90%((838 + 94) -(857 + 74))) ;else local v91=568 -((523 -156) + 201) ;local v92;while true do if (v91==(927 -(214 + 713))) then v92=(1 + 1)^(v32-1) ;return (((v31%(v92 + v92))>=v92) and 1) or (0 + (1065 -(68 + 997))) ;end end end end local function v21() local v34=v1(v16,v18,v18);v18=v18 + 1 ;return v34;end local function v22() local v35,v36=v1(v16,v18,v18 + (1272 -(226 + 1044)) );v18=v18 + (8 -6) ;return (v36 * (373 -(32 + 85))) + v35 ;end local function v23() local v37,v38,v39,v40=v1(v16,v18,v18 + 3 + 0 );v18=v18 + (1 -0) + 3 ;return (v40 * (16778173 -(892 + 65))) + (v39 * 65536) + (v38 * ((1119 -509) -354)) + v37 ;end local function v24() local v41=350 -(87 + 263) ;local v42;local v43;local v44;local v45;local v46;local v47;while true do if (v41==(183 -(67 + 113))) then if (v46==(0 -(1080 -(1020 + 60)))) then if (v45==0) then return v47 * (0 + 0) ;else v46=3 -2 ;v44=0 -0 ;end elseif (v46==(1506 + 541)) then return ((v45==(0 -0)) and (v47 * (((2376 -(630 + 793)) -(802 + 150))/(430 -(44 + (1307 -921)))))) or (v47 * NaN) ;end return v8(v47,v46-(2509 -(998 + 488)) ) * (v44 + (v45/(((23 -18) -3)^((37 + 56) -41)))) ;end if (v41==(0 + 0)) then v42=v23();v43=v23();v41=773 -(201 + (1965 -1394)) ;end if (v41==(999 -(915 + 82))) then v46=v20(v43,59 -38 ,19 + 12 );v47=((v20(v43,41 -9 )==(1188 -(1069 + 118))) and -(2 -1)) or (3 -2) ;v41=6 -3 ;end if (v41==(1 + 0)) then v44=(1748 -(760 + 987)) -0 ;v45=(v20(v43,1,20 + 0 ) * ((1 + 1)^((2736 -(1789 + 124)) -(368 + 423)))) + v42 ;v41=6 -(770 -(745 + 21)) ;end end end local function v25(v48) local v49=0;local v50;local v51;while true do if (v49==(1 + 0)) then v50=v3(v16,v18,(v18 + v48) -1 );v18=v18 + v48 ;v49=(11 -6) -(1416 -(447 + 966)) ;end if (v49==(0 -0)) then v50=nil;if not v48 then local v116=0;while true do if (v116==(0 + 0)) then v48=v23();if (v48==0) then return "";end break;end end end v49=1;end if (v49==(3 + 0)) then return v6(v51);end if (v49==(1057 -(87 + 968))) then v51={};for v110=4 -3 , #v50 do v51[v110]=v2(v1(v3(v50,v110,v110)));end v49=3 + 0 ;end end end local v26=v23;local function v27(...) return {...},v12("#",...);end local function v28() local v52=(function() return function(v93,v94,v95,v96,v97,v98,v99,v100,v101) local v102=(function() return 0;end)();local v93=(function() return;end)();local v94=(function() return;end)();while true do if (v102==0) then local v117=(function() return 0;end)();while true do if (v117==(562 -(79 + 482))) then v102=(function() return 1 -0 ;end)();break;end if (v117~=0) then else v93=(function() return 0;end)();v94=(function() return nil;end)();v117=(function() return 1;end)();end end end if ((2 -1)~=v102) then else local v118=(function() return 285 -(134 + 151) ;end)();while true do if (v118==(1665 -(970 + 695))) then local v125=(function() return 0;end)();while true do if (v125==(0 -0)) then while true do if (v93==0) then v94=(function() return v95();end)();if (v96(v94, #"]", #"~")==0) then local v179=(function() return 0;end)();local v180=(function() return;end)();local v181=(function() return;end)();local v182=(function() return;end)();while true do if (v179~=(1990 -(582 + 1408))) then else v180=(function() return v96(v94,2, #"asd");end)();v181=(function() return v96(v94, #"0836",20 -14 );end)();v179=(function() return 1;end)();end if (3~=v179) then else if (v96(v181, #"gha", #"xxx")== #"<") then v182[ #".com"]=(function() return v99[v182[ #"http"]];end)();end v100[v101]=(function() return v182;end)();break;end if (v179==(2 -0)) then if (v96(v181, #">", #"\\")== #"\\") then v182[7 -5 ]=(function() return v99[v182[1826 -(1195 + 629) ]];end)();end if (v96(v181,2,2 -0 )== #" ") then v182[ #"91("]=(function() return v99[v182[ #"-19"]];end)();end v179=(function() return 244 -(187 + 54) ;end)();end if (v179==1) then local v186=(function() return 780 -(162 + 618) ;end)();while true do if (v186~=1) then else v179=(function() return 2;end)();break;end if ((0 + 0)==v186) then v182=(function() return {v97(),v97(),nil,nil};end)();if (v180==0) then local v190=(function() return 0 + 0 ;end)();local v191=(function() return;end)();while true do if (v190~=(0 -0)) then else v191=(function() return 0;end)();while true do if (0~=v191) then else v182[ #"gha"]=(function() return v97();end)();v182[ #".dev"]=(function() return v97();end)();break;end end break;end end elseif (v180== #">") then v182[ #"91("]=(function() return v98();end)();elseif (v180==2) then v182[ #"91("]=(function() return v98() -(2^16) ;end)();elseif (v180== #"19(") then local v196=(function() return 0;end)();while true do if (v196~=(0 -0)) then else v182[ #"nil"]=(function() return v98() -(2^(2 + 14)) ;end)();v182[ #"0313"]=(function() return v97();end)();break;end end end v186=(function() return 1637 -(1373 + 263) ;end)();end end end end end break;end end return v93,v94,v95,v96,v97,v98,v99,v100,v101;end end end end end end end;end)();local v53=(function() return function(v103,v104,v105) local v106=(function() return 0;end)();while true do if (v106==(1000 -(451 + 549))) then local v119=(function() return 0;end)();while true do if (v119==0) then v103[v104-#">" ]=(function() return v105();end)();return v103,v104,v105;end end end end end;end)();local v54=(function() return {};end)();local v55=(function() return {};end)();local v56=(function() return {};end)();local v57=(function() return {v54,v55,nil,v56};end)();local v58=(function() return v23();end)();local v59=(function() return {};end)();for v67= #"/",v58 do local v68=(function() return 0 + 0 ;end)();local v69=(function() return;end)();local v70=(function() return;end)();local v71=(function() return;end)();while true do if (v68==1) then v71=(function() return nil;end)();while true do if (v69==(1 -0)) then if (v70== #"\\") then v71=(function() return v21()~=0 ;end)();elseif (v70==2) then v71=(function() return v24();end)();elseif (v70~= #"gha") then else v71=(function() return v25();end)();end v59[v67]=(function() return v71;end)();break;end if ((0 -0)==v69) then local v123=(function() return 0;end)();local v124=(function() return;end)();while true do if (v123~=(1384 -(746 + 638))) then else v124=(function() return 0;end)();while true do if (v124~=0) then else v70=(function() return v21();end)();v71=(function() return nil;end)();v124=(function() return 1;end)();end if (v124==1) then v69=(function() return 1 + 0 ;end)();break;end end break;end end end end break;end if (v68~=0) then else v69=(function() return 0 -0 ;end)();v70=(function() return nil;end)();v68=(function() return 1;end)();end end end v57[ #"91("]=(function() return v21();end)();for v72= #"|",v23() do FlatIdent_5ED46,Descriptor,v21,v20,v22,v23,v59,v54,v72=(function() return v52(FlatIdent_5ED46,Descriptor,v21,v20,v22,v23,v59,v54,v72);end)();end for v73= #".",v23() do v55,v73,v28=(function() return v53(v55,v73,v28);end)();end return v57;end local function v29(v61,v62,v63) local v64=v61[342 -((344 -(116 + 10)) + 123) ];local v65=v61[1583 -(1535 + 46) ];local v66=v61[1 + 2 + 0 ];return function(...) local v74=v64;local v75=v65;local v76=v66;local v77=v27;local v78=1;local v79= -(1 + 0);local v80={};local v81={...};local v82=v12("#",...) -1 ;local v83={};local v84={};for v107=0 + 0 ,v82 do if (v107>=v76) then v80[v107-v76 ]=v81[v107 + ((739 -(542 + 196)) -0) ];else v84[v107]=v81[v107 + (1468 -(899 + 568)) ];end end local v85=(v82-v76) + 1 + 0 ;local v86;local v87;while true do local v108=0 -0 ;while true do if (v108==0) then v86=v74[v78];v87=v86[604 -(268 + 335) ];v108=291 -((128 -68) + 230) ;end if (v108==(573 -(426 + 146))) then if (v87<=(1 + 2)) then if (v87<=1) then if (v87==(1456 -(282 + 1174))) then v84[v86[2]]={};else v84[v86[(238 + 575) -(569 + 242) ]]=v63[v86[8 -5 ]];end elseif ((3244>=1055) and (v87==(1 + 1 + 0))) then v84[v86[1026 -(706 + 115 + 203) ]]=v86[1254 -(721 + 530) ];else local v132=0;local v133;local v134;local v135;local v136;while true do if ((v132==(1272 -(945 + (858 -532)))) or (3313<=1778)) then v79=(v135 + v133) -(2 -1) ;v136=0;v132=(4 -2) + 0 ;end if (((700 -(271 + 429))==v132) or (1421>=2104)) then v133=v86[2];v134,v135=v77(v84[v133](v13(v84,v133 + (1552 -(1126 + 425)) + (405 -(118 + 287)) ,v86[1503 -(1408 + 92) ])));v132=1;end if ((1812<=3249) and (v132==(1088 -(461 + 625)))) then for v174=v133,v79 do v136=v136 + (1289 -(993 + 295)) ;v84[v174]=v134[v136];end break;end end end elseif ((1623<=1957) and (v87<=((3 -2) + 4))) then if (v87==(1175 -(418 + 753))) then local v137=0 + (1121 -(118 + 1003)) ;local v138;local v139;local v140;local v141;local v142;while true do if (v137==(1 + 2)) then v86=v74[v78];v84[v86[1 + 1 ]]=v86[3];v78=v78 + 1 + 0 ;v86=v74[v78];v142=v86[531 -(406 + 123) ];v139,v140=v77(v84[v142](v13(v84,v142 + (1770 -(1749 + (58 -38))) ,v86[1 + 2 ])));v137=1326 -(1249 + 73) ;end if ((4412==4412) and (v137==(2 + 2))) then v79=(v140 + v142) -(1146 -(466 + 679)) ;v138=0 -0 ;for v177=v142,v79 do local v178=(377 -(142 + 235)) -0 ;while true do if (v178==(1900 -(106 + 1794))) then v138=v138 + 1 + 0 ;v84[v177]=v139[v138];break;end end end v78=v78 + 1 + 0 ;v86=v74[v78];v142=v86[2];v137=14 -9 ;end if (v137==((58 -45) -(2 + 6))) then v84[v142]=v84[v142](v13(v84,v142 + (115 -(4 + 110)) ,v79));v78=v78 + ((1562 -(553 + 424)) -(57 + (996 -469))) ;v86=v74[v78];v84[v86[(1259 + 170) -(41 + 1386) ]]();v78=v78 + (104 -(17 + 86)) ;v86=v74[v78];v137=5 + 1 ;end if (v137==(3 -1)) then v86=v74[v78];v142=v86[2];v141=v84[v86[3]];v84[v142 + (2 -1) ]=v141;v84[v142]=v141[v86[170 -(122 + 44) ]];v78=v78 + 1 ;v137=5 -2 ;end if (v137==(3 -(2 + 0))) then v86=v74[v78];v84[v86[2 + 0 + 0 + 0 ]]=v63[v86[1 + 2 ]];v78=v78 + 1 + 0 ;v86=v74[v78];v84[v86[2]]=v63[v86[3]];v78=v78 + (1 -0) ;v137=67 -(30 + 35) ;end if (v137==(5 + 1)) then do return;end break;end if (v137==(1257 -(1043 + 214))) then v138=nil;v139,v140=nil;v141=nil;v142=nil;v84[v86[7 -5 ]]={};v78=v78 + (1213 -(323 + 889)) ;v137=2 -1 ;end end else local v143=580 -(361 + 219) ;local v144;local v145;while true do if (v143==(321 -(53 + 267))) then v84[v144 + 1 + (0 -0) ]=v145;v84[v144]=v145[v86[417 -(15 + 398) ]];break;end if ((1750>=842) and (0==v143)) then v144=v86[984 -(18 + 964) ];v145=v84[v86[3]];v143=3 -2 ;end end end elseif (v87<=(4 + 2)) then v84[v86[2]]();elseif (v87==(19 -12)) then local v146=v86[2 + 0 ];v84[v146]=v84[v146](v13(v84,v146 + (851 -(20 + (1858 -1028))) ,v79));else do return;end end v78=v78 + 1 + 0 ;break;end end end end;end return v29(v28(),{},v17)(...);end return v15("LOL!043Q00030A3Q006C6F6164737472696E6703043Q0067616D6503073Q00482Q747047657403563Q00682Q7470733A2Q2F7261772E67697468756275736572636F6E74656E742E636F6D2F5469656E626970646178616E682F6461756D656F2Q672F726566732F68656164732F6D61696E2F736372697074786461756D656F00094Q00047Q00122Q000100013Q00122Q000200023Q00202Q00020002000300122Q000400046Q000200046Q00013Q00024Q0001000100016Q00017Q00",v9(),...);
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/Tienbipdaxanh/Kayhrnlah/refs/heads/main/kosksg")))()
+
+       local Window = MakeWindow({
+         Hub = {
+         Title = "🤡Script by Đầu Mèo Đoẹp troai🤡",
+         Animation = "🔥Script by Daumeo🔥"
+         },
+        Key = {
+        KeySystem = true,
+        Title = " Đầu mèo đẹp troai 🤓 ",
+        Description = "Get key không quá khó đâu👍👍👍",
+        KeyLink = "https://link-target.net/1345604/keysystem1",
+        Keys = {"daumeo193619depzai191sjs"},
+        Notifi = {
+        Notifications = true,
+        CorrectKey = "Đang chạy script...",
+       Incorrectkey = "Sai Key rồi",
+       CopyKeyLink = "Sao chép Liên Kết Thành công✅"
+      }
+    }
+  })
+
+       MinimizeButton({
+       Image = "http://www.roblox.com/asset/?id=103207748545792",
+       Size = {60, 60},
+       Color = Color3.fromRGB(10, 10, 10),
+       Corner = true,
+       Stroke = false,
+       StrokeColor = Color3.fromRGB(115, 99, 3)
+      })
+      
+------ Tab
+     local Tab1o = MakeTab({Name = "STYLE VIP"})
+     local Tab2o = MakeTab({Name = "Funny🤡🤡🤡"})
+     local Tab3o = MakeTab({Name = "HITBOX GAME"})
+     local Tab4o = MakeTab({Name = "GRAPHICS"})
+     local Tab5o = MakeTab({Name = "STYLE (Must have Reo)"})
+     local Tab6o = MakeTab({Name = "FLOW"})
+     local Tab7o = MakeTab({Name = "functions you may need"})
+------- BUTTON
+    
+    AddButton(Tab1o, {
+     Name = "LAVIDNHO STYLE",
+    Callback = function()
+	  local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Youifpg/Styless/refs/heads/main/Lavinho.lua"))()(Settings)
+  end
+  })
+  
+  AddButton(Tab1o, {
+     Name = "LOKI STYLE",
+    Callback = function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/PresidentZuyi/MainSource/refs/heads/main/LokiV1Beta'))()
+  end
+  })
+  
+  AddButton(Tab1o, {
+     Name = "Itoshi Rin STYLE (FIXEDNEL)",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/stylemakeritosh/Ace/refs/heads/main/NelRinV2"))()
+  end
+  })
+  AddButton(Tab1o, {
+     Name = "NOEL NOAL STYLE (BESTNOEL)",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/stylemakeritosh/Ace/refs/heads/main/NoelNoaV1"))()
+  end
+  })
+
+AddButton(Tab1o, {
+     Name = "DON LORENZO STYLE",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Youifpg/Styles/refs/heads/main/Zombie.lua"))()
+  end
+  })
+  
+  AddButton(Tab1o, {
+     Name = "KAISER STYLE",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ScriptXPaid/Scripts/refs/heads/main/ScriptX%20Login"))()
+  end
+  })
+  
+ AddButton(Tab1o, {
+     Name = "GOKU STYLE(SONGOKU)",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/stylemakeritosh/Ace/refs/heads/main/GoatKu"))()
+  end
+  })
+ 
+ AddButton(Tab1o, {
+     Name = "Dancer Style",
+    Callback = function()
+loadstring(game:HttpGet("https://pastefy.app/ktBtXL1D/raw"))()
+   end
+   }) 
+   
+   AddButton(Tab1o, {
+     Name = "Sus Style 🤯😳☠☠☠☠",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/p2K9298sigkahot/Ambatukammmm/refs/heads/main/PornhubMadeByP2K"))()
+   end
+   }) 
+   
+   AddButton(Tab1o, {
+     Name = "Hioiri V2 Style (Mythical)",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ScriptXPaid/Scripts/refs/heads/main/ScriptX%20Login"))()
+   end
+   }) 
+   
+   AddButton(Tab1o, {
+     Name = "Gojo satoru Style",
+    Callback = function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/PresidentZuyi/H/refs/heads/main/B'))()
+   end
+   }) 
+   
+   AddButton(Tab1o, {
+     Name = "Igaguri v2 Style",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/PresidentZuyi/Hi/refs/heads/main/Chh"))()
+   end
+   }) 
+   
+  AddButton(Tab2o, {
+     Name = " JUKE SCRIPT ",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/RedJDark/MAIN/refs/heads/main/juke"))()
+  end
+  })
+  
+  AddButton(Tab2o, {
+     Name = " CONTROL BALL (TP)",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/XZuuyaX/CtrlBall/refs/heads/main/Main", true))()
+  end
+  })
+  
+  AddButton(Tab2o, {
+     Name = " No cooldown (Vip)",
+    Callback = function()
+local C=require(game:GetService("ReplicatedStorage").Controllers.AbilityController)
+local o=C.AbilityCooldown C.AbilityCooldown=function(s,n,...)return o(s,n,0,...)end
+  end
+  })
+ 
+  AddButton(Tab3o, {
+     Name = "Troll Gk 🤣",
+    Callback = function()
+L=game:service'Players'.LocalPlayer;game:service'RunService'.Heartbeat:Connect(function()if L.Character and L.Character:FindFirstChild'HumanoidRootPart'then local B=workspace:FindFirstChild'Football'if B and B.AssemblyLinearVelocity.Magnitude<100 then B:ApplyImpulse((L.Character.HumanoidRootPart.Position+Vector3.new(0,-2.5,0)-B.Position).Unit*18)end end end)
+  end
+  })
+  
+  AddButton(Tab2o, {
+     Name = "Inf Stamina¹",
+    Callback = function()
+
+local args = {
+    [1] = 0/0 -- INF
+}
+
+game:GetService("ReplicatedStorage").Packages.Knit.Services.StaminaService.RE.DecreaseStamina:FireServer(unpack(args))
+  end
+  })
+  
+  -----Toggle
+  Toggle = AddToggle(Tab2o, {
+      Name = "Anti Banned (fixed)",
+      Default = false,
+      Callback = function()
+     end
+    })
+    
+    AddButton(Tab3o, {
+     Name = "HITBOX BALL",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/RedJDarks/MAIN/refs/heads/main/HitboxExpander"))()
+  end
+  })
+    
+    AddButton(Tab3o, {
+     Name = "Esp Player ",
+    Callback = function()
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/Bugsda/espplayer/refs/heads/main/Playespa")))()
+  end
+   })
+   
+   AddButton(Tab3o, {
+     Name = " HITBOX GK(Douki23)",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/RedJDarks/MAIN/refs/heads/main/HitboxExpander"))()
+  end
+   })
+   
+   AddButton(Tab3o, {
+     Name = " HANDBALL",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/RedJDark/MAIN/refs/heads/main/handball"))()
+  end
+  })
+  
+  AddButton(Tab3o, {
+     Name = " Auto Dribble",
+    Callback = function()
+loadstring(game:HttpGet("https://github.com/Tienbipdaxanh/atdruble/blob/main/autodriblle"))()
+  end
+  })
+  
+   AddButton(Tab4o, {
+     Name = "GRAPHICS",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/TurboLite/Script/main/FixLag.lua"))()
+   end
+   })
+  
+AddButton(Tab5o, {
+     Name = "Isagi Style",
+    Callback = function()
+game.Players.LocalPlayer.PlayerStats.Style.Value = "Isagi"
+   end
+   }) 
+   
+   AddButton(Tab5o, {
+     Name = "Chigiri Style",
+    Callback = function()
+game.Players.LocalPlayer.PlayerStats.Style.Value = "Chigiri"
+   end
+   }) 
+   
+   AddButton(Tab5o, {
+     Name = "Kurona Style",
+    Callback = function()
+game.Players.LocalPlayer.PlayerStats.Style.Value = "Kurona"
+   end
+   }) 
+   
+   AddButton(Tab5o, {
+     Name = "Igaguri Style",
+    Callback = function()
+game.Players.LocalPlayer.PlayerStats.Style.Value = "Igaguri"
+   end
+   }) 
+   
+   AddButton(Tab5o, {
+     Name = "Hiori Style",
+    Callback = function()
+game.Players.LocalPlayer.PlayerStats.Style.Value = "Hiori"
+   end
+   }) 
+   
+   AddButton(Tab5o, {
+     Name = "Gagamaru Style",
+    Callback = function()
+game.Players.LocalPlayer.PlayerStats.Style.Value = "Gagamaru"
+   end
+   }) 
+   
+   AddButton(Tab5o, {
+     Name = "Otoya Style",
+    Callback = function()
+game.Players.LocalPlayer.PlayerStats.Style.Value = "Otoya"
+   end
+   }) 
+   
+   AddButton(Tab5o, {
+     Name = "Bachira Style",
+    Callback = function()
+game.Players.LocalPlayer.PlayerStats.Style.Value = "Bachira"
+   end
+   }) 
+   
+   AddButton(Tab5o, {
+     Name = "Nagi Style",
+    Callback = function()
+game.Players.LocalPlayer.PlayerStats.Style.Value = "Nagi"
+   end
+   }) 
+   
+   AddButton(Tab5o, {
+     Name = "Karasu Style",
+    Callback = function()
+game.Players.LocalPlayer.PlayerStats.Style.Value = "Karasu"
+   end
+   }) 
+   
+   AddButton(Tab5o, {
+     Name = "Reo Style",
+    Callback = function()
+game.Players.LocalPlayer.PlayerStats.Style.Value = "Reo"
+   end
+   }) 
+   
+   AddButton(Tab5o, {
+     Name = "Shidou Style",
+    Callback = function()
+game.Players.LocalPlayer.PlayerStats.Style.Value = "Shidou"
+   end
+   }) 
+   
+   AddButton(Tab5o, {
+     Name = "Yukimiya Style",
+    Callback = function()
+game.Players.LocalPlayer.PlayerStats.Style.Value = "Yukimiya"
+   end
+   }) 
+   
+   AddButton(Tab5o, {
+     Name = "NEL Bachira  Style",
+    Callback = function()
+game.Players.LocalPlayer.PlayerStats.Style.Value = "NEL Bachira"
+   end
+   }) 
+   
+   AddButton(Tab5o, {
+     Name = "King Style",
+    Callback = function()
+game.Players.LocalPlayer.PlayerStats.Style.Value = "King"
+   end
+   }) 
+   
+   AddButton(Tab5o, {
+     Name = "Kunigami Style",
+    Callback = function()
+game.Players.LocalPlayer.PlayerStats.Style.Value = "Kunigami"
+   end
+   }) 
+   
+   AddButton(Tab5o, {
+     Name = "Aiku Style",
+    Callback = function()
+game.Players.LocalPlayer.PlayerStats.Style.Value = "Aiku"
+   end
+   }) 
+   
+   AddButton(Tab5o, {
+     Name = "Sae Style",
+    Callback = function()
+game.Players.LocalPlayer.PlayerStats.Style.Value = "Sae"
+   end
+   }) 
+   
+   AddButton(Tab5o, {
+     Name = "Nel Isagi Style",
+    Callback = function()
+game.Players.LocalPlayer.PlayerStats.Style.Value = "NEL Isagi"
+   end
+   }) 
+   
+   AddButton(Tab5o, {
+     Name = "Kaiser Style",
+    Callback = function()
+game.Players.LocalPlayer.PlayerStats.Style.Value = "Kaiser"
+   end
+   }) 
+   
+   AddButton(Tab5o, {
+     Name = "Don Lorenzo Style",
+    Callback = function()
+game.Players.LocalPlayer.PlayerStats.Style.Value = "Don Lorenzo"
+   end
+   }) 
+   
+   AddButton(Tab5o, {
+     Name = "Nel Rin Style",
+    Callback = function()
+game.Players.LocalPlayer.PlayerStats.Style.Value = "NEL Rin"
+   end
+   }) 
+   
+   AddButton(Tab6o, {
+     Name = "Lightning",
+    Callback = function()
+game.Players.LocalPlayer.PlayerStats.Flow.Value = "Lightning"
+   end
+   }) 
+   
+   AddButton(Tab6o, {
+     Name = "Puzzle",
+    Callback = function()
+game.Players.LocalPlayer.PlayerStats.Flow.Value = "Puzzle"
+   end
+   }) 
+   
+   AddButton(Tab6o, {
+     Name = "Ice",
+    Callback = function()
+game.Players.LocalPlayer.PlayerStats.Flow.Value = "Ice"
+   end
+   }) 
+   
+   AddButton(Tab6o, {
+     Name = "Gale Burst",
+    Callback = function()
+game.Players.LocalPlayer.PlayerStats.Flow.Value = "Gale Burst"
+   end
+   }) 
+   
+   AddButton(Tab6o, {
+     Name = "Genius",
+    Callback = function()
+game.Players.LocalPlayer.PlayerStats.Flow.Value = "Genius"
+   end
+   }) 
+   
+   AddButton(Tab6o, {
+     Name = "Buddha's Blessing",
+    Callback = function()
+game.Players.LocalPlayer.PlayerStats.Flow.Value = "Buddha's Blessing"
+   end
+   }) 
+   
+   AddButton(Tab6o, {
+     Name = "Monster",
+    Callback = function()
+game.Players.LocalPlayer.PlayerStats.Flow.Value = "Monster"
+   end
+   }) 
+   
+   AddButton(Tab6o, {
+     Name = "King's Instinct",
+    Callback = function()
+game.Players.LocalPlayer.PlayerStats.Flow.Value = "King's Instinct"
+   end
+   }) 
+   
+   AddButton(Tab6o, {
+     Name = "Crow",
+    Callback = function()
+game.Players.LocalPlayer.PlayerStats.Flow.Value = "Crow"
+   end
+   }) 
+   
+   AddButton(Tab6o, {
+     Name = "Chameleon",
+    Callback = function()
+game.Players.LocalPlayer.PlayerStats.Flow.Value = "Chameleon"
+   end
+   }) 
+   
+   AddButton(Tab6o, {
+     Name = "Demon Wings",
+    Callback = function()
+game.Players.LocalPlayer.PlayerStats.Flow.Value = "Demon Wings"
+   end
+   }) 
+   
+   AddButton(Tab6o, {
+     Name = "Wild Card",
+    Callback = function()
+game.Players.LocalPlayer.PlayerStats.Flow.Value = "Wild Card"
+   end
+   }) 
+   
+   AddButton(Tab6o, {
+     Name = "Trap",
+    Callback = function()
+game.Players.LocalPlayer.PlayerStats.Flow.Value = "Trap"
+   end
+   }) 
+   
+   AddButton(Tab6o, {
+     Name = "Snake",
+    Callback = function()
+game.Players.LocalPlayer.PlayerStats.Flow.Value = "Snake"
+   end
+   }) 
+   
+   AddButton(Tab6o, {
+     Name = "Dribbler",
+    Callback = function()
+game.Players.LocalPlayer.PlayerStats.Flow.Value = "Dribbler"
+   end
+   }) 
+   
+   AddButton(Tab6o, {
+     Name = "Bee Freestyle",
+    Callback = function()
+game.Players.LocalPlayer.PlayerStats.Flow.Value = "Bee Freestyle"
+   end
+   }) 
+   
+   AddButton(Tab6o, {
+     Name = "Awakened Genius",
+    Callback = function()
+game.Players.LocalPlayer.PlayerStats.Flow.Value = "Awakened Genius"
+   end
+   }) 
+   
+   AddButton(Tab6o, {
+     Name = "Emperor",
+    Callback = function()
+game.Players.LocalPlayer.PlayerStats.Flow.Value = "Emperor"
+   end
+   }) 
+   
+   AddButton(Tab6o, {
+     Name = "Soul Harvester",
+    Callback = function()
+game.Players.LocalPlayer.PlayerStats.Flow.Value = "Soul Harvester"
+   end
+   }) 
+   
+   AddButton(Tab6o, {
+     Name = "Destructive Impulses",
+    Callback = function()
+game.Players.LocalPlayer.PlayerStats.Flow.Value = "Destructive Impulses"
+   end
+   }) 
+   
+   AddButton(Tab7o, {
+     Name = "Noclip",
+    Callback = function()
+local Workspace = game:GetService("Workspace")
+local CoreGui = game:GetService("CoreGui")
+local Players = game:GetService("Players")
+local Noclip = Instance.new("ScreenGui")
+local BG = Instance.new("Frame")
+local Title = Instance.new("TextLabel")
+local Toggle = Instance.new("TextButton")
+local StatusPF = Instance.new("TextLabel")
+local Status = Instance.new("TextLabel")
+local Plr = Players.LocalPlayer
+local Clipon = false
+
+Noclip.Name = "Noclip"
+Noclip.Parent = game.CoreGui
+
+BG.Name = "BG"
+BG.Parent = Noclip
+BG.BackgroundColor3 = Color3.new(0.0980392, 0.0980392, 0.0980392)
+BG.BorderColor3 = Color3.new(0.0588235, 0.0588235, 0.0588235)
+BG.BorderSizePixel = 2
+BG.Position = UDim2.new(0.149479166, 0, 0.82087779, 0)
+BG.Size = UDim2.new(0, 210, 0, 127)
+BG.Active = true
+BG.Draggable = true
+
+Title.Name = "Title"
+Title.Parent = BG
+Title.BackgroundColor3 = Color3.new(0.266667, 0.00392157, 0.627451)
+Title.BorderColor3 = Color3.new(0.180392, 0, 0.431373)
+Title.BorderSizePixel = 2
+Title.Size = UDim2.new(0, 210, 0, 33)
+Title.Font = Enum.Font.Highway
+Title.Text = "Noclip"
+Title.TextColor3 = Color3.new(1, 1, 1)
+Title.FontSize = Enum.FontSize.Size32
+Title.TextSize = 30
+Title.TextStrokeColor3 = Color3.new(0.180392, 0, 0.431373)
+Title.TextStrokeTransparency = 0
+
+Toggle.Parent = BG
+Toggle.BackgroundColor3 = Color3.new(0.266667, 0.00392157, 0.627451)
+Toggle.BorderColor3 = Color3.new(0.180392, 0, 0.431373)
+Toggle.BorderSizePixel = 2
+Toggle.Position = UDim2.new(0.152380958, 0, 0.374192119, 0)
+Toggle.Size = UDim2.new(0, 146, 0, 36)
+Toggle.Font = Enum.Font.Highway
+Toggle.FontSize = Enum.FontSize.Size28
+Toggle.Text = "Toggle"
+Toggle.TextColor3 = Color3.new(1, 1, 1)
+Toggle.TextSize = 25
+Toggle.TextStrokeColor3 = Color3.new(0.180392, 0, 0.431373)
+Toggle.TextStrokeTransparency = 0
+
+StatusPF.Name = "StatusPF"
+StatusPF.Parent = BG
+StatusPF.BackgroundColor3 = Color3.new(1, 1, 1)
+StatusPF.BackgroundTransparency = 1
+StatusPF.Position = UDim2.new(0.314285725, 0, 0.708661377, 0)
+StatusPF.Size = UDim2.new(0, 56, 0, 20)
+StatusPF.Font = Enum.Font.Highway
+StatusPF.FontSize = Enum.FontSize.Size24
+StatusPF.Text = "Status:"
+StatusPF.TextColor3 = Color3.new(1, 1, 1)
+StatusPF.TextSize = 20
+StatusPF.TextStrokeColor3 = Color3.new(0.333333, 0.333333, 0.333333)
+StatusPF.TextStrokeTransparency = 0
+StatusPF.TextWrapped = true
+
+Status.Name = "Status"
+Status.Parent = BG
+Status.BackgroundColor3 = Color3.new(1, 1, 1)
+Status.BackgroundTransparency = 1
+Status.Position = UDim2.new(0.580952346, 0, 0.708661377, 0)
+Status.Size = UDim2.new(0, 56, 0, 20)
+Status.Font = Enum.Font.Highway
+Status.FontSize = Enum.FontSize.Size14
+Status.Text = "off"
+Status.TextColor3 = Color3.new(0.666667, 0, 0)
+Status.TextScaled = true
+Status.TextSize = 14
+Status.TextStrokeColor3 = Color3.new(0.180392, 0, 0.431373)
+Status.TextWrapped = true
+Status.TextXAlignment = Enum.TextXAlignment.Left
+
+
+Toggle.MouseButton1Click:connect(function()
+	if Status.Text == "off" then
+		Clipon = true
+		Status.Text = "on"
+		Status.TextColor3 = Color3.new(0,185,0)
+		Stepped = game:GetService("RunService").Stepped:Connect(function()
+			if not Clipon == false then
+				for a, b in pairs(Workspace:GetChildren()) do
+                if b.Name == Plr.Name then
+                for i, v in pairs(Workspace[Plr.Name]:GetChildren()) do
+                if v:IsA("BasePart") then
+                v.CanCollide = false
+                end end end end
+			else
+				Stepped:Disconnect()
+			end
+		end)
+	elseif Status.Text == "on" then
+		Clipon = false
+		Status.Text = "off"
+		Status.TextColor3 = Color3.new(170,0,0)
+	end
+end)
+   end
+   }) 
+   
+   AddButton(Tab7o, {
+     Name = "Unlimited flex Work",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/LolnotaKid/Ui-library/main/UFWBYMEVEUXCAMV1"))()
+   end
+   }) 
+   
+   AddButton(Tab7o, {
+     Name = "Gojo amanai",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/louismich4el/ItsLouisPlayz-Scripts/refs/heads/main/FE%20GOJO%20BLR%20SCRIPT.lua"))()
+   end
+   }) 
+   
+   AddButton(Tab7o, {
+     Name = "Teleport to player",
+    Callback = function()
+loadstring(game:HttpGet("https://api.rubis.app/v2/scrap/i1nZO9bkZb2Mljdy/raw",true))()
+   end
+   }) 
+   
+   AddButton(Tab7o, {
+     Name = "Fly Gui v3",
+    Callback = function()
+loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\40\39\104\116\116\112\115\58\47\47\103\105\115\116\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\109\101\111\122\111\110\101\89\84\47\98\102\48\51\55\100\102\102\57\102\48\97\55\48\48\49\55\51\48\52\100\100\100\54\55\102\100\99\100\51\55\48\47\114\97\119\47\101\49\52\101\55\52\102\52\50\53\98\48\54\48\100\102\53\50\51\51\52\51\99\102\51\48\98\55\56\55\48\55\52\101\98\51\99\53\100\50\47\97\114\99\101\117\115\37\50\53\50\48\120\37\50\53\50\48\102\108\121\37\50\53\50\48\50\37\50\53\50\48\111\98\102\108\117\99\97\116\111\114\39\41\44\116\114\117\101\41\41\40\41\10\10")()
+   end
+   }) 
+   
+   AddButton(Tab7o, {
+     Name = "Auto jump v3",
+    Callback = function()
+local Game = game
+local Players = Game:GetService("Players")
+local Player = Players.LocalPlayer
+
+local function setAutoJumpEnabled()
+    local Character = Player.Character or Player.CharacterAdded:Wait()
+    local Humanoid = Character:WaitForChild("Humanoid")
+    Humanoid.AutoJumpEnabled = false
+end
+
+setAutoJumpEnabled()
+
+Player.CharacterAdded:Connect(setAutoJumpEnabled)
+   end
+   }) 
+  
+  local Main = MakeTab({Name = "INFO"}) local Image = AddImageLabel(Main, { Name = "🔥Đầu Mèo Đẹp Zai =)))🔥", Image = "rbxassetid://103207748545792" }) local Paragraph1 = AddParagraph(Main, {"🔥Script này được lấy ý tưởng của vài người🔥", "CREDIT"}) local Paragraph2 = AddParagraph(Main, {"Follow nick tiktok của đầu mèo:fanrealmadrid806🤓", "INFO"}) local Paragraph3 = AddParagraph(Main, {"Đầu Mèo đẹp troai 🤡"}) local Paragraph4 = AddParagraph(Main, {"Đầu Mèo đẹp zai là chủ sỡ hữu script này"}) 
+  
